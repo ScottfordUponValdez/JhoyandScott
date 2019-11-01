@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Century Gothic;
+  font-size: 103%;
+}
+body{
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("https://scontent-mad1-1.xx.fbcdn.net/v/t1.0-9/69564058_2421109761468279_1277376187827486720_o.jpg?_nc_cat=105&_nc_oc=AQlwetL5spfXgw_Ju_unV3duoYn6JG0ZltYWJnRwmr2LkUtGP6sG4VmaSKkwO27TWWg&_nc_ht=scontent-mad1-1.xx&oh=d87a0bf5300f9b2ac41860cc559dfe62&oe=5E5FFED1");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+ul{
+  float: right;
+  list-style: none;
+  margin-top: 25px;
+}
+ul li{
+  display: inline-block;
+}
+ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 20px;
+  border: 1px solid #fff;
+  transition: 0.6s ease;
+}
+ul li a:hover{
+  background-color: #fff;
+  color: #000;
+}
+.active a{
+  background-color: #fff;
+  color: #000;
+}
+.title{
+  position: fixed;
+  top: 30%;
+  left: 35%;
+  transform: translate(-50%,-50%);
+}
+h1{
+  color: #fff;
+  font-size: 140%;
+}
+p{
+  color: #fff;
+}
+h2{
+  color:#fff;
+  font-size: 140%;
+}
